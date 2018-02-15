@@ -1,0 +1,61 @@
+body{
+	background-image: url("../images/map.jpg");
+	overflow-x:hidden;
+}
+
+.contentContainer{
+	background-color: rgba(255,255,255, .9);
+	margin-top: 30px;
+	margin-right: 140px; 
+	margin-left: 140px;
+	height: 700px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border: solid;
+	border-width: 1px;
+	border-color: white;
+}
+
+.row{
+	text-align: center;
+}
+
+/*text for timer and question*/
+.text{
+	font-size: 40px;
+	margin-bottom: 20px;
+	/*margin: 20px;*/
+}
+
+div > h1{
+	font-size: 60px;
+	margin-bottom: 100px;
+	
+}
+
+/*text for answers*/
+.answerText{
+	font-size: 50px;
+	width: 30%;
+	/*margin: 0 auto;*/
+}
+
+#answer1,
+#answer2,
+#answer3,
+#answer4{
+	margin: 0 auto;
+}
+
+.answerText:hover{
+	background-color: yellow;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+button{
+	width: 200px;
+	height: 50px;
+	font-size: 25px !important;
+}

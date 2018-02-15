@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+	<!-- javascript -->
+  	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<!-- Bootstrap File -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+	<div class="row">
+		
+		<div class="contentContainer">
+			
+			<h1>Name The Country Trivia Game</h1>
+
+			<!-- timer -->
+			<div id="timer" class="row text">Time Remaining: <span id="time">10</span> Seconds</div>
+
+			<!-- start button -->
+			<div id="startbtn" class="row"><button class="btn btn-primary" id="start">Start</button></div>
+
+	        <!-- question answer container -->
+			<div id="questions" class="row">
+				
+				<!-- question -->
+				<div id="question" class="row text"></div>
+
+				<!-- answers -->
+				<div id="answer1" class="row answerText">answer</div>
+				<div id="answer2" class="row answerText">answer</div>
+				<div id="answer3" class="row answerText">answer</div>
+				<div id="answer4" class="row answerText">answer</div>
+
+			</div>
+
+			<!-- win loose container -->
+			<div id="winLoose" class="row">
+				
+				<!-- win loose -->
+				<div id="correctIncorrect" class="row text"></div>
+
+				<!-- media -->
+				<div id="media"><img src="assets/images/winLoose.jpg"></div>
+
+			</div>
+			
+
+		</div>
+
+	</div>
+
+</body>
+</html>
