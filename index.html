@@ -10,16 +10,20 @@
   	<script type="text/javascript" src="assets/javascript/app.js"></script>
 	<!-- Bootstrap File -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  	<!-- google fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 </head>
 <body>
 	<div class="row">
 		
 		<div class="contentContainer">
 			
-			<h1>Name The Country Trivia Game</h1>
+			<h1>Name The Country</h1>
+			
 
 			<!-- timer -->
-			<div id="timer" class="row text">Time Remaining: <span id="time">10</span> Seconds</div>
+			<div id="timer" class="row text">Time Remaining: <span id="time">20</span> Seconds</div>
 
 			<!-- start button -->
 			<div id="startbtn" class="row"><button class="btn btn-primary" id="start">Start</button></div>
@@ -42,11 +46,30 @@
 			<div id="winLoose" class="row">
 				
 				<!-- win loose -->
-				<div id="correctIncorrect" class="row text"></div>
+				<div id="choice" class="row text"></div>
+
+				<!-- right or wrong -->
+				<div id="rightWrong" class="row text"></div>
 
 				<!-- media -->
-				<div id="media"><img src="assets/images/winLoose.jpg"></div>
+				<div id="media"><img id="imageTag" src=''></div>
 
+			</div>
+
+			<!-- final page container -->
+			<div id="totalDisplay" class="row">
+				
+				<!-- game statue -->
+				<div id="status" class="row text"></div>
+
+				<!-- comment -->
+				<div id="comment" class="row text"></div>
+
+				<!-- media -->
+				<!-- <div id="media"><img id="imageTag" src='assets/images/globe.jpg'></div> -->
+
+				<!-- restart -->
+				<button class="btn btn-primary restart">Restart</button>
 			</div>
 			
 
