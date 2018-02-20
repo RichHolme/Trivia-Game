@@ -24,8 +24,8 @@ $(document).ready(function() {
 
     // array of answers
 	var qArr = ['Japan', 'Brazil', 'China', 'Greece', 'Peru', 'Australia', 'Iran', 'Canada', 'Egypt', 'Nigeria', 'Cambodia', 'Mexico',
-				'Greenland', 'Germany', 'Mongolia', 'Ireland', 'Argentina', 'Angola', 'Afghanistan', 'Israel', 'South Korea', 'Russia', 
-				'Chad', 'Italy'];
+				'Greenland', 'Germany', 'Mongolia', 'Ireland', 'Chad', 'Israel', 'Afghanistan', 'Angola', 'South Korea', 'Russia', 
+				'Argentina', 'Italy'];
 
 	$("#start").on('click', function(){
 		
