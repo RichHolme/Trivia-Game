@@ -23,9 +23,9 @@ $(document).ready(function() {
 				'https://media.giphy.com/media/ZxHv5pMs8lYC4/giphy.gif', 'https://media.giphy.com/media/GMMQTNvKHh5u0/giphy.gif'];
 
     // array of answers
-	var qArr = ['Japan', 'Brazil', 'China', 'Greece', 'Peru', 'Australia', 'Iran', 'Canada', 'Egypt', 'Nigeria', 'Cambodia', 'Mexico',
-				'Greenland', 'Germany', 'Mongolia', 'Ireland', 'Chad', 'Israel', 'Afghanistan', 'Angola', 'South Korea', 'Russia', 
-				'Argentina', 'Italy'];
+	var qArr = ['Japan', 'Brazil', 'China', 'Greece', 'Peru', 'Australia', 'Iran', 'Canada', 'Mexico', 'Nigeria', 'Cambodia', 'Egypt',
+				'Greenland', 'Germany', 'Mongolia', 'Ireland', 'Israel', 'Angola', 'Afghanistan', 'Chad', 'South Korea', 'Italy', 
+				'Argentina', 'Russia'];
 
 	$("#start").on('click', function(){
 		
