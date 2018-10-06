@@ -24,6 +24,7 @@ body{
 	text-align: center;
 }
 
+.answerText { cursor: pointer; }
 /*text for timer and question*/
 .text{
 	font-size: 30px;

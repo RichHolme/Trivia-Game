@@ -7,11 +7,11 @@ $(document).ready(function() {
 	
 	// array of questions
 	var Qarr = ["The world's most pupulous country, and the host of the 2008 Summer Olympic Games.",
-				"With a landscape of moutains and rainforests, this country was the home of the Incan Empire.",
-				"Ruled over for thousands of years by Pharaohs, its land is an archaeological goldmine.",
-				"A highway system that in some places has no speed limit, might be a good place to take your Mercedes for a spin.",
-				"The home of the Abrahamic faiths, the modern world recognizes this small country as a technology and military powerhouse",
-				"Spanning 11 time Zones and bordering 14 countries, all while wearing an Ushanka-hat."
+				"They've got moutains, rainforests, and every once in a while you realize your standing on a ancient pyramid.",
+				"If you don't get eaten by a mummy, you might find some cool artifacts!",
+				"If you like to drive a Mercedes and your not a fan of speed limits this is the place for you.",
+				"This small country has made no small impact on the world, it's the home of the Abrahamic faiths.",
+				"Like Ushanka-hats? What about snow? How about being the worlds largest country?"
 				];
 
 	// array of countries
