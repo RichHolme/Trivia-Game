@@ -6,11 +6,11 @@ $(document).ready(function() {
 	$("#totalDisplay").hide();
 	
 	// array of questions
-	var Qarr = ["This is the world's most pupulous country, and the host of the 2008 Summer Olympic Games.",
+	var Qarr = ["This is the worlds most pupulous country, and the host of the 2008 Summer Olympic Games.",
 				"They've got moutains, rainforests, and some pretty old pyramids.",
-				"If you don't get snatched up by a mummy, you might find some cool artifacts!",
-				"If you like to drive a Mercedes and you're not a fan of speed limits then this is the country for you.",
-				"This small country has made no small impact on the world, it's the home of the Abrahamic faiths.",
+				"If you don't get snatched up by a mummy, you might just find some cool artifacts!",
+				"If you like to drive a Mercedes and you're not a fan of speed limits, then this is the country for you.",
+				"This small country has made no small impact on the world; it's the home of the Abrahamic faiths.",
 				"Like Ushanka-hats? What about snow? How about being the worlds largest country?"
 				];
 
